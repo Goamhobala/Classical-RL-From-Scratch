@@ -15,4 +15,5 @@ class SARSAAgent(TabularAgent):
     """
 
     def update(self, state, action, reward, next_state, next_action, done):
-        raise NotImplementedError("Implement the SARSA update rule here")
+        current = self.q_table[state][action]
+        self.q_table[state][action] = current + self.alpha * (reward + self.gamma * self.q_table[next_state][next_action])
