@@ -11,7 +11,7 @@ import gymnasium as gym
 from collections import deque
 import copy
 from torch.distributions import Categorical
-from TrainLogger import TrainLogger
+from agents.TrainLogger import TrainLogger
 
 class MLP(nn.Module):
     # just a basic MLP

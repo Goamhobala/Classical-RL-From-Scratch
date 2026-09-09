@@ -11,7 +11,7 @@ import torch.optim as optim
 import numpy as np
 import gymnasium as gym
 from torch.distributions import Normal
-from TrainLogger import TrainLogger
+from agents.TrainLogger import TrainLogger
 
 class MLP(nn.Module):
     # just a basic MLP
