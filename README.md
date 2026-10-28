@@ -1,7 +1,7 @@
 # RL
 
-Tabular SARSA / Q-learning on CartPole-v1 (gymnasium).
-My implementations of PPO, A2C with PPO, DQN can be found in /agents.
+My implementations of PPO, A2C with PPO, DQN are on Lunar Lander, and tabular SARSA / Q-learning on CartPole-v1 (gymnasium).
+They can be found in /agents.
 
 ```bash
 uv run python train.py qlearning --episodes 2000
